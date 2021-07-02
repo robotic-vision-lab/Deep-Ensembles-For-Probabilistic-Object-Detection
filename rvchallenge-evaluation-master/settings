@@ -1,0 +1,4 @@
+htc + nms 1: results0per0.05ratio0.15pro1thr0.05numFr100
+htc + nms 2 :results0per0.2ratio0.15pro1thr0.05numFr100 iouthreshold 0.4
+htc 1: per.2ratio.15pro1thr0.35
+htc 2: per.2ratio.15pro1thr0.05
