@@ -11,7 +11,7 @@ high-probability output. Robot actions based on high-confidence, yet unreliable
 predictions, can result in serious consequences. 
 
 This repository provides source code for our 2021 CASE paper entitled 
-"[AnUncertainty Estimation Framework for Probabilistic Object Detection](https://arxiv.org/pdf/2106.15007.pdf)." 
+"[An Uncertainty Estimation Framework for Probabilistic Object Detection](https://arxiv.org/pdf/2106.15007.pdf)." 
 Our framework employs deep ensembles and Monte Carlo dropout for approximating
 predictive uncertainty, and it improves upon the uncertainty estimation quality
 of the baseline method. We evaluate our approach on publicly available
@@ -29,6 +29,12 @@ If you find this project useful, then please consider citing our work:
 ```
 
 ### Installation
+
+Our code is based on the open source object detection toolbox [MMdetection](https://github.com/open-mmlab/mmdetection).
+The version we used in our work is 2.0. To use our code, you need to install
+mmdetection first. You can find more information about how to install mmdetection
+in their [installation](https://github.com/open-mmlab/mmdetection/blob/master/docs/get_started.md)
+instruction page.
 
 ### Usage
 
