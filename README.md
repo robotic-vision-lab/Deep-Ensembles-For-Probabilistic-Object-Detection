@@ -32,8 +32,6 @@ If you find this project useful, then please consider citing our work:
 
 ### Usage
 
-### Citation
-
 ### License 
 
 [Apache 2.0](https://github.com/robotic-vision-lab/Deep-Ensembles-For-Probabilistic-Object-Detection/blob/main/LICENSE)
