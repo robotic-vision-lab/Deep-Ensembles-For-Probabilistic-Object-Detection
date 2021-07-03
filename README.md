@@ -29,6 +29,14 @@ If you find this project useful, then please consider citing our work:
 ```
 
 ### Installation
+#### Prerequisites
+
+- Linux or macOS or Windows
+- Python 3.6+
+- PyTorch 1.3+
+- CUDA 9.2+ (If you build PyTorch from source, CUDA 9.0 is also compatible)
+- GCC 5+
+- [MMCV](https://mmcv.readthedocs.io/en/latest/#installation)
 
 Our code is based on the open source object detection toolbox [MMdetection](https://github.com/open-mmlab/mmdetection).
 The version we used in our work is 2.0. To use our code, you need to install
