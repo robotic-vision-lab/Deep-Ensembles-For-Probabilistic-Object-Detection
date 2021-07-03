@@ -29,3 +29,4 @@ publicly available synthetic image datasets captured from sequences of video.
 
 ### License 
 
+[Apache 2.0](https://github.com/robotic-vision-lab/Deep-Ensembles-For-Probabilistic-Object-Detection/blob/main/LICENSE)
