@@ -46,6 +46,22 @@ instruction page.
 
 ### Usage
 
+It's easy to run our code after you successfully install mmdetection. 
+
+In order to make it more efficient, we separate the process of producing bounding
+boxes (and their corresponding labels) and doing inference. To produce boxes and
+labels, just set reuseFiles = False, saveFiles = True. Then run the script below,
+#### Test PrOD with pretrained model
+
+   ```shell
+   python tools/testPOD.py 
+   ```
+The boxes and labels file will be saved in savedOutputs folder.
+
+Then to do inference with existing boxes and labels file, simply set reuseFiles = True,
+saveFiles = False, and run the above script again. The result can be seen in the 
+terminal after finishing the inference.
+
 ### License 
 
 [Apache 2.0](https://github.com/robotic-vision-lab/Deep-Ensembles-For-Probabilistic-Object-Detection/blob/main/LICENSE)
