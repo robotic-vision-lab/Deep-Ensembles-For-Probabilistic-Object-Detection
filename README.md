@@ -56,11 +56,24 @@ labels, just set reuseFiles = False, saveFiles = True. Then run the script below
    ```shell
    python tools/testPOD.py 
    ```
-The boxes and labels file will be saved in savedOutputs folder.
+The boxes and labels file will be saved as pickle file in savedOutputs folder.
 
 Then to do inference with existing boxes and labels file, simply set reuseFiles = True,
-saveFiles = False, and run the above script again. The result can be seen in the 
-terminal after finishing the inference.
+saveFiles = False. There are four primary hyper-parameters we tuned in our work.
+
+thresholds: threshold for detection score
+
+covPercents: percent to which the covariance is scaling
+
+boxratios: ratio by which the bounding box is reduced
+
+iouthresholds: IoU threshold
+
+Given each pair of produced boxes and labels files, you can do inference with a
+combination of different values of these parameters. After you set the values of
+these parameters to the ones you want to test, just run the above script again.
+Then the result of computed pdq score will show in the terminal after finishing
+the inference.
 
 ### License 
 
