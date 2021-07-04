@@ -75,6 +75,8 @@ these parameters to the ones you want to test, just run the above script again.
 Then the result of computed pdq score will show in the terminal after finishing
 the inference.
 
+You can find the original results we got in our paper.
+
 ### License 
 
 [Apache 2.0](https://github.com/robotic-vision-lab/Deep-Ensembles-For-Probabilistic-Object-Detection/blob/main/LICENSE)
