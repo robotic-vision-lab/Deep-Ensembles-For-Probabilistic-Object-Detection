@@ -1,4 +1,4 @@
-## Deep Ensembles For Probabilistic Object Detection 
+## Deep Ensembles for Probabilistic Object Detection 
 
 ### Overview
 ![model image](images/model.png)
