@@ -29,7 +29,7 @@ Science and Engineering (CASE)*, 2021.
   title={An Uncertainty Estimation Framework for Probabilistic Object Detection},
   author={Lyu, Zongyao and Gutierrez, Nolan B and Beksi, William J},
   booktitle={Proceedings of the IEEE International Conference on Automation Science and Engineering (CASE)},
-  pages={},
+  pages={1441--1446},
   year={2021}
 }
 ```
