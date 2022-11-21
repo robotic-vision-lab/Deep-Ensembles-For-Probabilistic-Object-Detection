@@ -1,16 +1,19 @@
 ## Deep Ensembles for Probabilistic Object Detection 
 
 ### Overview
-![model image](images/model.png)
 
 Probabilistic object detection is the task of detecting objects in images and
 accurately quantifying the spatial and semantic uncertainties of the detection.
 Quantifying uncertainty is critical in real-world robotic applications.
 Traditional detection models can be ambiguous even when they provide a
 high-probability output. Robot actions based on high-confidence, yet unreliable
-predictions, can result in serious consequences. 
+predictions, can result in catastrophic consequences. 
 
-This repository provides source code for our 2021 CASE paper entitled "[An
+<p align="center">
+<img src="./misc/overview.png">
+</p>
+
+This repository provides source code for our 2021 CASE paper titled "[An
 Uncertainty Estimation Framework for Probabilistic Object
 Detection](https://arxiv.org/pdf/2106.15007.pdf)." Our framework employs deep
 ensembles and Monte Carlo dropout for approximating predictive uncertainty, and
@@ -18,13 +21,11 @@ it improves upon the uncertainty estimation quality of the baseline method. We
 evaluate our approach on publicly available synthetic image datasets captured
 from sequences of video.
 
-If you find this project useful, then please consider citing our work: 
+### Citation
 
-Z. Lyu, N.B. Gutierrez and W.J. Beksi, "An Uncertainty Estimation Framework for
-Probabilistic Object Detection," *IEEE International Conference on Automation
-Science and Engineering (CASE)*, 2021.
+If you find this project useful, then please consider citing our work.
 
-```bibtex
+```
 @inproceedings{lyu2021uncertainty,
   title={An Uncertainty Estimation Framework for Probabilistic Object Detection},
   author={Lyu, Zongyao and Gutierrez, Nolan B and Beksi, William J},
@@ -34,7 +35,14 @@ Science and Engineering (CASE)*, 2021.
 }
 ```
 
+### Model Architecture
+
+<p align="center">
+<img src="./misc/model.png">
+</p>
+
 ### Installation
+
 #### Prerequisites
 
 - Linux, MacOS, or Windows machine
@@ -45,9 +53,9 @@ Science and Engineering (CASE)*, 2021.
 - [MMCV](https://mmcv.readthedocs.io/en/latest/#installation)
 
 Our code is based on the open-source object detection toolbox
-[MMDetection](https://github.com/open-mmlab/mmdetection). The version we used in
-our work is 2.0. To use our code, you will need to install MMDetection first.
-You can find more information about this process on the MMDetection
+[MMDetection](https://github.com/open-mmlab/mmdetection). The version we used
+in our work is 2.0. To use our code, you will need to install MMDetection
+first.  You can find more information about this process on the MMDetection
 [installation
 instructions](https://github.com/open-mmlab/mmdetection/blob/master/docs/get_started.md)
 page.
