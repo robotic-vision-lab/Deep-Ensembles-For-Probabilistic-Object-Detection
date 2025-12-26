@@ -10,7 +10,7 @@ high-probability output. Robot actions based on high-confidence, yet unreliable
 predictions, can result in catastrophic consequences. 
 
 <p align="center">
-<img src="./misc/overview.png">
+  <img src="./misc/overview.png" alt="overview">
 </p>
 
 This repository provides source code for our 2021 CASE paper titled "[An
@@ -38,7 +38,7 @@ If you find this project useful, then please consider citing our work.
 ### Model Architecture
 
 <p align="center">
-<img src="./misc/model.png">
+  <img src="./misc/model.png" alt="model architecture">
 </p>
 
 ### Installation
